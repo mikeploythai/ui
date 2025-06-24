@@ -17,5 +17,6 @@
   // },
   "files.autoSave": "afterDelay",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.classFunctions": ["cva", "cx", "compose"]
 }

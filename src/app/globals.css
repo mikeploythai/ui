@@ -1,7 +1,22 @@
 @import "tailwindcss";
 
+@theme inline {
+  --color-background: white;
+  --color-foreground: var(--color-neutral-950);
+  --color-border: var(--color-neutral-300);
+  --color-muted-foreground: var(--color-neutral-500);
+}
+
 @layer base {
-  body {
-    @apply isolate;
+  * {
+    @apply border-border;
   }
+
+  body {
+    @apply isolate bg-background text-foreground;
+  }
+}
+
+@utility fs-heading {
+  @apply font-semibold tracking-tight;
 }

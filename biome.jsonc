@@ -19,7 +19,10 @@
       "nursery": {
         "useSortedClasses": {
           "level": "warn",
-          "fix": "safe"
+          "fix": "safe",
+          "options": {
+            "functions": ["cva", "cx", "compose"]
+          }
         }
       },
       "correctness": {
